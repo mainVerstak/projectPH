@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light only">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/tom-select.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="main-promo">
+  <div class="container">
+    <div class="main-promo__inner">
+      <img src="images/icon-sun.svg" alt="" class="main-promo__icon">
+      Summer SALE 20%
+      <img src="images/icon-sun.svg" alt="" class="main-promo__icon">
+    </div>
+  </div>
+</div>
+    <div class="header">
+  <div class="header__outer">
+    <div class="header__main">
+      <div class="container">
+        <div class="header__main-inner">
+          <div class="menu-btn header__menu-btn js-toggle-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <a href="#" class="header__logo">
+            <img src="images/logo.png" alt="">
+          </a>
+          <div class="header__search search header-search">
+            <div class="header-search__inner">
+              <button type="button" class="search__btn header-search__btn">
+                <svg width="19" height="19">
+                  <use href="images/svg-icons.svg#search"></use>
+                </svg>
+              </button>
+              <input type="search" class="search__input header-search__input" placeholder="Search" autocomplete="off">
+            </div>
+            <div type="button" class="search__show-btn header-search__show-btn">
+              <svg width="19" height="19">
+                <use href="images/svg-icons.svg#search"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="header__user header-user">
+            <a href="#" class="header-user__signin">
+              <svg width="27" height="27">
+                <use href="images/svg-icons.svg#user"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="header__cart header-cart cart">
+            <div class="header-cart__btn js-show-cart">
+              <svg width="27" height="27">
+                <use href="images/svg-icons.svg#cart"></use>
+              </svg>
+              <span class="header-cart__counter">
+                <span>99+</span>
+              </span>
+            </div>
+            <div class="header-cart__modal js-cart">
+              <div class="header-cart__modal-inner">
+                <div class="header-cart__content">
+                  <div class="cart__head">
+                    <div class="cart__head-inner">
+                      <span class="cart__title">
+                        Cart
+                      </span>
+                      <span class="cart__quantity">
+                        3
+                      </span>
+                    </div>
+                    <div class="cart__clear js-show-cart"></div>
+                  </div>
+                  <div class="cart__list">
+                    <div class="cart-item js-cart-item">
+                      <div class="cart-item__picture">
+                        <img src="images/product/product1.jpg" alt="" class="cart-item__img">
+                      </div>
+                      <div class="cart-item__info">
+                        <div class="cart-item__title">
+                          <a href="#" target="_blank">
+                            Lorem ipsum dolor
+                          </a>
+                        </div>
+                        <div class="counter cart-item__counter js-counter">
+                          <div class="counter__btn counter__btn_dec js-counter-dec">-</div>
+                          <input type="text" class="counter__input js-counter-input" value="3" min="1" max="999"
+                            autocomplete="off">
+                          <div class="counter__btn counter__btn_inc js-counter-inc">+</div>
+                        </div>
+                        <div class="cart-item__price">
+                          70 EUR
+                        </div>
+                      </div>
+                      <div class="cart-item__remove js-cart-item-remove"></div>
+                    </div>
+                    <div class="cart-item js-cart-item">
+                      <div class="cart-item__picture">
+                        <img src="images/product/product1.jpg" alt="" class="cart-item__img">
+                      </div>
+                      <div class="cart-item__info">
+                        <div class="cart-item__title">
+                          <a href="#" target="_blank">
+                            Lorem ipsum dolor
+                          </a>
+                        </div>
+                        <div class="counter cart-item__counter js-counter">
+                          <div class="counter__btn counter__btn_dec js-counter-dec">-</div>
+                          <input type="text" class="counter__input js-counter-input" value="1" min="1" max="999"
+                            autocomplete="off">
+                          <div class="counter__btn counter__btn_inc js-counter-inc">+</div>
+                        </div>
+                        <div class="cart-item__price">
+                          70 EUR
+                        </div>
+                      </div>
+                      <div class="cart-item__remove js-cart-item-remove"></div>
+                    </div>
+                  </div>
+                  <div class="cart__section cart__offer">
+                    <div class="cart__title2">
+                      Your Personal Offer
+                    </div>
+                    <div class="cart-offer">
+                      <div class="cart-offer__top">
+                        <div class="cart-offer__picture">
+                          <img src="images/product/product1.jpg" alt="" class="cart-offer__img">
+                        </div>
+                        <div class="cart-offer__info">
+                          <div class="cart-offer__title">
+                            <a href="#" target="_blank">
+                              Viagra Levitra Welcome Pack
+                            </a>
+                          </div>
+                          <div class="cart-offer__text">
+                            5x 20mg Viagra and 5x20mg&nbsp;Levitra
+                          </div>
+                        </div>
+                        <button type="button" class="btn cart-offer__free">
+                          Add to Cart for FREE
+                        </button>
+                      </div>
+                    </div>
+                    <div class="cart-offer">
+                      <div class="cart-offer__top">
+                        <div class="cart-offer__picture">
+                          <img src="images/product/product1.jpg" alt="" class="cart-offer__img">
+                        </div>
+                        <div class="cart-offer__info">
+                          <div class="cart-offer__title">
+                            <a href="#" target="_blank">
+                              Viagra Levitra Welcome Pack
+                            </a>
+                          </div>
+                          <div class="cart-offer__text">
+                            5x 20mg Viagra and 5x20mg&nbsp;Levitra
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cart-offer__bottom">
+                        <svg width="16" height="20" class="c-blue cart-offer__icon">
+                          <use href="images/svg-icons.svg#lock"></use>
+                        </svg>
+                        Add €100 in products to your cart to unlock this option for free.
+                      </div>
+                    </div>
+                    <div class="cart-offer">
+                      <div class="cart-offer__top">
+                        <div class="cart-offer__picture">
+                          <img src="images/product/product1.jpg" alt="" class="cart-offer__img">
+                        </div>
+                        <div class="cart-offer__info">
+                          <div class="cart-offer__title">
+                            <a href="#" target="_blank">
+                              Viagra Levitra Welcome Pack
+                            </a>
+                          </div>
+                          <div class="cart-offer__text">
+                            5x 20mg Viagra and 5x20mg&nbsp;Levitra
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cart-offer__bottom">
+                        <svg width="16" height="20" class="c-blue cart-offer__icon">
+                          <use href="images/svg-icons.svg#lock"></use>
+                        </svg>
+                        Add €100 in products to your cart to unlock this option for free.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart__section cart__promo">
+                    <div class="cart-promo">
+                      <input type="text" class="input-style cart-promo__input" placeholder="Promo Code">
+                      <button class="btn cart-promo__btn">
+                        Apply
+                      </button>
+                    </div>
+                  </div>
+                  <div class="cart__section cart__footer">
+                    <div class="cart-total cart__total">
+                      <span class="cart-total__label">
+                        Subtotal
+                      </span>
+                      <span class="cart-total__value">
+                        70 EUR
+                      </span>
+                    </div>
+                    <div class="cart__btns">
+                      <a href="checkout.html" class="btn btn_w_100p cart__checkout js-hide-cart js-disable-empty">
+                        Proceed to Checkout
+                      </a>
+                    </div>
+                    <ul class="cart-payment-list cart__payment">
+                      <li class="cart-payment-list__item">
+                        <img src="images/visa.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/mc.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/visa.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/mc.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/visa.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/mc.svg" alt="">
+                      </li>
+                    </ul>
+                    <div class="cart__note">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolorelor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__menu header-menu">
+      <div class="container header-menu__container">
+        <div class="header-menu__close js-toggle-menu-btn"></div>
+        <nav class="header-menu__inner">
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Витамины
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Lorem ipsum dolor
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Incididunt ut labore
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Et dolore
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Лекартственные средства
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Бады
+              </a>
+            </div>
+            <!-- <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+
+                </a>
+              </li>
+            </ul> -->
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Косметика
+              </a>
+            </div>
+            <!-- <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+
+                </a>
+              </li>
+            </ul> -->
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Медицинская техника
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Первая помощь
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Оптика
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Гигиена
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Ухо горло нос
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <main class="main">
+      <section class="section section_bg_white section_pt_30 section_pb_140 section-article">
+        <div class="container">
+          <div class="section-article__inner">
+            <ul class="breadcrumbs breadcrumbs_mb_30 section-article__breadcrumbs">
+              <li>
+                <a href="#">
+                  main
+                </a>
+              </li>
+              <li>
+                <span>
+                  blog
+                </span>
+              </li>
+            </ul>
+            <div class="article">
+              <h1>
+                Title Article
+              </h1>
+              <img src="images/article/article.jpg" alt="">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolorelor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorelor
+                sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolorelor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorelor
+                sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              </p>
+              <h2>
+                Lorem ipsum dolor sit
+              </h2>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                </li>
+              </ul>
+              <img src="images/article/article2.jpg" alt=""> 
+              <ol>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                </li>
+              </ol>
+              <img src="images/article/article2.jpg" alt=""> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <div class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__cell">
+          <div class="footer-nav js-drop-item">
+            <div class="footer__title footer-nav__title js-drop-btn">
+              Collection
+            </div>
+            <ul class="footer-nav__list js-drop-content">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsumr sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum do
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__cell">
+          <div class="footer-nav js-drop-item">
+            <div class="footer__title footer-nav__title js-drop-btn">
+              Customer support
+            </div>
+            <ul class="footer-nav__list js-drop-content">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsumr sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum do
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__cell">
+          <div class="footer__title">
+            Join the club
+          </div>
+          <div class="footer__info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          </div>
+          <div class="footer__subscribe">
+            <div class="subscribe-input">
+              <input type="email" class="subscribe-input__input" placeholder="Your email">
+              <button type="button" class="subscribe-input__btn">
+                <svg width="21" height="18">
+                  <use href="images/svg-icons.svg#send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer__cell">
+          <div class="footer__logo">
+            <img src="images/logo-light.png" alt="">
+          </div>
+          <ul class="footer__sc">
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="17" height="14">
+                  <use href="images/svg-icons.svg#sc-tg"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="20" height="16">
+                  <use href="images/svg-icons.svg#sc-yt"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="9" height="18">
+                  <use href="images/svg-icons.svg#sc-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="21" height="13">
+                  <use href="images/svg-icons.svg#sc-vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="21" height="17">
+                  <use href="images/svg-icons.svg#sc-tw"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="16" height="16">
+                  <use href="images/svg-icons.svg#sc-ig"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copy">
+          © 2024 Copyright All rights reserved.
+        </div>
+        <div class="footer__controls">
+          <div class="footer__select">
+            <select class="select-settings" id="select-language" autocomplete="off">
+              <option value="0" selected>Eng</option>
+              <option value="1">Eng1</option>
+              <option value="2">Eng2</option>
+              <option value="3">Eng3</option>
+              <option value="4">Eng4</option>
+            </select>
+          </div>
+          <div class="footer__select">
+            <select class="select-settings" id="select-currency" autocomplete="off">
+              <option value="0" selected>USD ($)</option>
+              <option value="1">USD ($)1</option>
+              <option value="2">USD ($)2</option>
+              <option value="3">USD ($)3</option>
+              <option value="4">USD ($)4</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/tom-select.complete.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

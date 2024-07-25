@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light only">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/tom-select.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+  <div class="header__outer">
+    <div class="header__main">
+      <div class="container">
+        <div class="header__main-inner">
+          <a href="#" class="header__logo">
+            <img src="images/logo.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <main class="main">
+      <section class="section section_pb_140 section-checkout">
+        <div class="container">
+          <div class="checkout-summary js-drop-item">
+            <div class="checkout-summary__head js-drop-btn">
+              <div class="checkout-summary__title">
+                Order summary
+              </div>
+              <div class="checkout-summary__value">
+                77 EUR
+              </div>
+            </div>
+            <div class="checkout-summary__content js-drop-content">
+              <div class="checkout-summary__list">
+                <div class="checkout-product">
+                  <div class="checkout-product__picture">
+                    <img src="images/product/product1.jpg" alt="" class="checkout-product__img">
+                  </div>
+                  <div class="checkout-product__info">
+                    <div class="checkout-product__head">
+                      <a href="#" target="_blank" class="checkout-product__title">
+                        Lorem ipsum dolor
+                      </a>
+                      <span class="checkout-product__quant">
+                        x2
+                      </span>
+                    </div>
+                    <div class="checkout-product__price">
+                      70 EUR
+                    </div>
+                  </div>
+                </div>
+                <div class="checkout-product">
+                  <div class="checkout-product__picture">
+                    <img src="images/product/product1.jpg" alt="" class="checkout-product__img">
+                  </div>
+                  <div class="checkout-product__info">
+                    <div class="checkout-product__head">
+                      <a href="#" target="_blank" class="checkout-product__title">
+                        Lorem ipsum dolor
+                      </a>
+                    </div>
+                    <div class="checkout-product__price">
+                      70 EUR
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="checkout-promo checkout-summary__promo">
+                <input type="text" class="input-style checkout-promo__input" placeholder="Promo Code">
+                <button class="btn checkout-promo__btn">
+                  Apply
+                </button>
+              </div>
+              <ul class="checkout-result checkout-summary__result">
+                <li class="checkout-result__item">
+                  <span class="checkout-result__lavel">
+                    Subtotal
+                  </span>
+                  <span class="checkout-result__value">
+                    70 EUR
+                  </span>
+                </li>
+                <li class="checkout-result__item">
+                  <span class="checkout-result__lavel">
+                    Shipping
+                  </span>
+                  <span class="checkout-result__value">
+                    7 EUR
+                  </span>
+                </li>
+                <li class="checkout-result__item checkout-result__item_total">
+                  <span class="checkout-result__lavel">
+                    Total
+                  </span>
+                  <span class="checkout-result__value">
+                    77 EUR
+                  </span>
+                </li>
+              </ul>
+              <div class="checkout-summary__btns">
+                <button class="btn btn_w_100p">
+                  Pay Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="checkout">
+            <div class="checkout__left">
+              <div class="checkout__left-inner">
+                <div class="checkout__title">
+                  Contacts
+                </div>
+                <div class="input-row">
+                  <input type="email" class="input-style" placeholder="Email">
+                </div>
+                <div class="control-row">
+                  <label class="checkbox">
+                    <input type="checkbox" class="checkbox__input" name="" id="">
+                    <span class="checkbox__checkmark"></span>
+                    Email me with news and offers
+                  </label>
+                </div>
+                <div class="checkout__title">
+                  Delivery
+                </div>
+                <div class="input-row">
+                  <select class="select" id="select-country" autocomplete="off" placeholder="Country">
+                    <option value="">Country</option>
+                    <option value="0">Popular</option>
+                    <option value="1">Popular 1</option>
+                    <option value="2">Popular 2</option>
+                    <option value="3">Popular 3</option>
+                    <option value="4">Popular 4</option>
+                    <option value="5">Popular 1</option>
+                    <option value="6">Popular 2</option>
+                    <option value="7">Popular 3</option>
+                    <option value="8">Popular 4</option>
+                    <option value="9">Popular 1</option>
+                    <option value="10">Popular 2</option>
+                    <option value="11">Popular 3</option>
+                    <option value="12">Popular 4</option>
+                  </select>
+                </div>
+                <div class="input-row">
+                  <div class="input-row__cell">
+                    <input type="text" class="input-style" placeholder="First name">
+                  </div>
+                  <div class="input-row__cell">
+                    <input type="text" class="input-style" placeholder="Last name">
+                  </div>
+                </div>
+                <div class="input-row">
+                  <input type="text" class="input-style" placeholder="Adress">
+                </div>
+                <div class="input-row">
+                  <input type="text" class="input-style" placeholder="Apartment">
+                </div>
+                <div class="input-row">
+                  <div class="input-row__cell">
+                    <input type="text" class="input-style" placeholder="Postcode">
+                  </div>
+                  <div class="input-row__cell">
+                    <input type="text" class="input-style" placeholder="City">
+                  </div>
+                </div>
+                <div class="input-row">
+                  <input type="tel" class="input-style" placeholder="Phone (optional)">
+                </div>
+                <div class="checkout__title">
+                  Shipping Method
+                </div>
+                <div class="control-row">
+                  <label class="radio-btn">
+                    <input type="radio" class="radio-btn__input" name="shipping" id="" checked>
+                    <span class="radio-btn__checkmark"></span>
+                    Standard
+                  </label>
+                </div>
+                <div class="control-row">
+                  <label class="radio-btn">
+                    <input type="radio" class="radio-btn__input" name="shipping" id="">
+                    <span class="radio-btn__checkmark"></span>
+                    Express
+                  </label>
+                </div>
+                <div class="checkout__title checkout__title_mb_10">
+                  Payment
+                </div>
+                <div class="checkout__text">
+                  All transactions are secure and encrypted.
+                </div>
+                <div class="checkout__title2 checkout__title2_mt_25">
+                  Credit Card
+                </div>
+                <div class="input-row">
+                  <input type="text" class="input-style" placeholder="Card Number">
+                </div>
+                <div class="input-row">
+                  <div class="input-row__cell">
+                    <input type="text" class="input-style" placeholder="Exp. date">
+                  </div>
+                  <div class="input-row__cell">
+                    <input type="text" class="input-style" placeholder="CVV">
+                  </div>
+                </div>
+                <div class="input-row">
+                  <input type="text" class="input-style" placeholder="Name on card">
+                </div>
+                <div class="control-row">
+                  <label class="checkbox">
+                    <input type="checkbox" class="checkbox__input js-show-billing-form" name="" id=""
+                      autocomplete="off">
+                    <span class="checkbox__checkmark"></span>
+                    Use shipping address as billing address
+                  </label>
+                </div>
+                <div class="checkout__billing-form _active">
+                  <div class="checkout__title2">
+                    Billing address
+                  </div>
+                  <div class="input-row">
+                    <select class="select" id="select-country-billing" autocomplete="off" placeholder="Country">
+                      <option value="">Country</option>
+                      <option value="0">Popular</option>
+                      <option value="1">Popular 1</option>
+                      <option value="2">Popular 2</option>
+                      <option value="3">Popular 3</option>
+                      <option value="4">Popular 4</option>
+                      <option value="5">Popular 1</option>
+                      <option value="6">Popular 2</option>
+                      <option value="7">Popular 3</option>
+                      <option value="8">Popular 4</option>
+                      <option value="9">Popular 1</option>
+                      <option value="10">Popular 2</option>
+                      <option value="11">Popular 3</option>
+                      <option value="12">Popular 4</option>
+                    </select>
+                  </div>
+                  <div class="input-row">
+                    <div class="input-row__cell">
+                      <input type="text" class="input-style" placeholder="First name">
+                    </div>
+                    <div class="input-row__cell">
+                      <input type="text" class="input-style" placeholder="Last name">
+                    </div>
+                  </div>
+                  <div class="input-row">
+                    <input type="text" class="input-style" placeholder="Adress">
+                  </div>
+                  <div class="input-row">
+                    <input type="text" class="input-style" placeholder="Apartment">
+                  </div>
+                  <div class="input-row">
+                    <div class="input-row__cell">
+                      <input type="text" class="input-style" placeholder="Postcode">
+                    </div>
+                    <div class="input-row__cell">
+                      <input type="text" class="input-style" placeholder="City">
+                    </div>
+                  </div>
+                  <div class="input-row">
+                    <input type="tel" class="input-style" placeholder="Phone (optional)">
+                  </div>
+                </div>
+                <div class="checkout__btns">
+                  <button class="btn btn_w_100p">
+                    Pay Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="checkout__right">
+              <div class="checkout__right-inner">
+                <div class="checkout__title checkout__summary-title">
+                  Order summary
+                </div>
+                <div class="checkout__list">
+                  <div class="checkout-product">
+                    <div class="checkout-product__picture">
+                      <img src="images/product/product1.jpg" alt="" class="checkout-product__img">
+                    </div>
+                    <div class="checkout-product__info">
+                      <div class="checkout-product__head">
+                        <a href="#" target="_blank" class="checkout-product__title">
+                          Lorem ipsum dolor
+                        </a>
+                        <span class="checkout-product__quant">
+                          x2
+                        </span>
+                      </div>
+                      <div class="checkout-product__price">
+                        70 EUR
+                      </div>
+                    </div>
+                  </div>
+                  <div class="checkout-product">
+                    <div class="checkout-product__picture">
+                      <img src="images/product/product1.jpg" alt="" class="checkout-product__img">
+                    </div>
+                    <div class="checkout-product__info">
+                      <div class="checkout-product__head">
+                        <a href="#" target="_blank" class="checkout-product__title">
+                          Lorem ipsum dolor
+                        </a>
+                      </div>
+                      <div class="checkout-product__price">
+                        70 EUR
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="checkout-promo checkout__promo">
+                  <input type="text" class="input-style checkout-promo__input" placeholder="Promo Code">
+                  <button class="btn checkout-promo__btn">
+                    Apply
+                  </button>
+                </div>
+                <ul class="checkout-result checkout__result">
+                  <li class="checkout-result__item">
+                    <span class="checkout-result__lavel">
+                      Subtotal
+                    </span>
+                    <span class="checkout-result__value">
+                      70 EUR
+                    </span>
+                  </li>
+                  <li class="checkout-result__item">
+                    <span class="checkout-result__lavel">
+                      Shipping
+                    </span>
+                    <span class="checkout-result__value">
+                      7 EUR
+                    </span>
+                  </li>
+                  <li class="checkout-result__item checkout-result__item_total">
+                    <span class="checkout-result__lavel">
+                      Total
+                    </span>
+                    <span class="checkout-result__value">
+                      77 EUR
+                    </span>
+                  </li>
+                </ul>
+                <div class="checkout__btns-mobile">
+                  <button class="btn btn_w_100p">
+                    Pay Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <div class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__cell">
+          <div class="footer-nav js-drop-item">
+            <div class="footer__title footer-nav__title js-drop-btn">
+              Collection
+            </div>
+            <ul class="footer-nav__list js-drop-content">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsumr sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum do
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__cell">
+          <div class="footer-nav js-drop-item">
+            <div class="footer__title footer-nav__title js-drop-btn">
+              Customer support
+            </div>
+            <ul class="footer-nav__list js-drop-content">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsumr sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum do
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__cell">
+          <div class="footer__title">
+            Join the club
+          </div>
+          <div class="footer__info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          </div>
+          <div class="footer__subscribe">
+            <div class="subscribe-input">
+              <input type="email" class="subscribe-input__input" placeholder="Your email">
+              <button type="button" class="subscribe-input__btn">
+                <svg width="21" height="18">
+                  <use href="images/svg-icons.svg#send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer__cell">
+          <div class="footer__logo">
+            <img src="images/logo-light.png" alt="">
+          </div>
+          <ul class="footer__sc">
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="17" height="14">
+                  <use href="images/svg-icons.svg#sc-tg"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="20" height="16">
+                  <use href="images/svg-icons.svg#sc-yt"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="9" height="18">
+                  <use href="images/svg-icons.svg#sc-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="21" height="13">
+                  <use href="images/svg-icons.svg#sc-vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="21" height="17">
+                  <use href="images/svg-icons.svg#sc-tw"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="16" height="16">
+                  <use href="images/svg-icons.svg#sc-ig"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copy">
+          © 2024 Copyright All rights reserved.
+        </div>
+        <div class="footer__controls">
+          <div class="footer__select">
+            <select class="select-settings" id="select-language" autocomplete="off">
+              <option value="0" selected>Eng</option>
+              <option value="1">Eng1</option>
+              <option value="2">Eng2</option>
+              <option value="3">Eng3</option>
+              <option value="4">Eng4</option>
+            </select>
+          </div>
+          <div class="footer__select">
+            <select class="select-settings" id="select-currency" autocomplete="off">
+              <option value="0" selected>USD ($)</option>
+              <option value="1">USD ($)1</option>
+              <option value="2">USD ($)2</option>
+              <option value="3">USD ($)3</option>
+              <option value="4">USD ($)4</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/tom-select.complete.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

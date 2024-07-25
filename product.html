@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light only">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/tom-select.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="main-promo">
+  <div class="container">
+    <div class="main-promo__inner">
+      <img src="images/icon-sun.svg" alt="" class="main-promo__icon">
+      Summer SALE 20%
+      <img src="images/icon-sun.svg" alt="" class="main-promo__icon">
+    </div>
+  </div>
+</div>
+    <div class="header">
+  <div class="header__outer">
+    <div class="header__main">
+      <div class="container">
+        <div class="header__main-inner">
+          <div class="menu-btn header__menu-btn js-toggle-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <a href="#" class="header__logo">
+            <img src="images/logo.png" alt="">
+          </a>
+          <div class="header__search search header-search">
+            <div class="header-search__inner">
+              <button type="button" class="search__btn header-search__btn">
+                <svg width="19" height="19">
+                  <use href="images/svg-icons.svg#search"></use>
+                </svg>
+              </button>
+              <input type="search" class="search__input header-search__input" placeholder="Search" autocomplete="off">
+            </div>
+            <div type="button" class="search__show-btn header-search__show-btn">
+              <svg width="19" height="19">
+                <use href="images/svg-icons.svg#search"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="header__user header-user">
+            <a href="#" class="header-user__signin">
+              <svg width="27" height="27">
+                <use href="images/svg-icons.svg#user"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="header__cart header-cart cart">
+            <div class="header-cart__btn js-show-cart">
+              <svg width="27" height="27">
+                <use href="images/svg-icons.svg#cart"></use>
+              </svg>
+              <span class="header-cart__counter">
+                <span>99+</span>
+              </span>
+            </div>
+            <div class="header-cart__modal js-cart">
+              <div class="header-cart__modal-inner">
+                <div class="header-cart__content">
+                  <div class="cart__head">
+                    <div class="cart__head-inner">
+                      <span class="cart__title">
+                        Cart
+                      </span>
+                      <span class="cart__quantity">
+                        3
+                      </span>
+                    </div>
+                    <div class="cart__clear js-show-cart"></div>
+                  </div>
+                  <div class="cart__list">
+                    <div class="cart-item js-cart-item">
+                      <div class="cart-item__picture">
+                        <img src="images/product/product1.jpg" alt="" class="cart-item__img">
+                      </div>
+                      <div class="cart-item__info">
+                        <div class="cart-item__title">
+                          <a href="#" target="_blank">
+                            Lorem ipsum dolor
+                          </a>
+                        </div>
+                        <div class="counter cart-item__counter js-counter">
+                          <div class="counter__btn counter__btn_dec js-counter-dec">-</div>
+                          <input type="text" class="counter__input js-counter-input" value="3" min="1" max="999"
+                            autocomplete="off">
+                          <div class="counter__btn counter__btn_inc js-counter-inc">+</div>
+                        </div>
+                        <div class="cart-item__price">
+                          70 EUR
+                        </div>
+                      </div>
+                      <div class="cart-item__remove js-cart-item-remove"></div>
+                    </div>
+                    <div class="cart-item js-cart-item">
+                      <div class="cart-item__picture">
+                        <img src="images/product/product1.jpg" alt="" class="cart-item__img">
+                      </div>
+                      <div class="cart-item__info">
+                        <div class="cart-item__title">
+                          <a href="#" target="_blank">
+                            Lorem ipsum dolor
+                          </a>
+                        </div>
+                        <div class="counter cart-item__counter js-counter">
+                          <div class="counter__btn counter__btn_dec js-counter-dec">-</div>
+                          <input type="text" class="counter__input js-counter-input" value="1" min="1" max="999"
+                            autocomplete="off">
+                          <div class="counter__btn counter__btn_inc js-counter-inc">+</div>
+                        </div>
+                        <div class="cart-item__price">
+                          70 EUR
+                        </div>
+                      </div>
+                      <div class="cart-item__remove js-cart-item-remove"></div>
+                    </div>
+                  </div>
+                  <div class="cart__section cart__offer">
+                    <div class="cart__title2">
+                      Your Personal Offer
+                    </div>
+                    <div class="cart-offer">
+                      <div class="cart-offer__top">
+                        <div class="cart-offer__picture">
+                          <img src="images/product/product1.jpg" alt="" class="cart-offer__img">
+                        </div>
+                        <div class="cart-offer__info">
+                          <div class="cart-offer__title">
+                            <a href="#" target="_blank">
+                              Viagra Levitra Welcome Pack
+                            </a>
+                          </div>
+                          <div class="cart-offer__text">
+                            5x 20mg Viagra and 5x20mg&nbsp;Levitra
+                          </div>
+                        </div>
+                        <button type="button" class="btn cart-offer__free">
+                          Add to Cart for FREE
+                        </button>
+                      </div>
+                    </div>
+                    <div class="cart-offer">
+                      <div class="cart-offer__top">
+                        <div class="cart-offer__picture">
+                          <img src="images/product/product1.jpg" alt="" class="cart-offer__img">
+                        </div>
+                        <div class="cart-offer__info">
+                          <div class="cart-offer__title">
+                            <a href="#" target="_blank">
+                              Viagra Levitra Welcome Pack
+                            </a>
+                          </div>
+                          <div class="cart-offer__text">
+                            5x 20mg Viagra and 5x20mg&nbsp;Levitra
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cart-offer__bottom">
+                        <svg width="16" height="20" class="c-blue cart-offer__icon">
+                          <use href="images/svg-icons.svg#lock"></use>
+                        </svg>
+                        Add €100 in products to your cart to unlock this option for free.
+                      </div>
+                    </div>
+                    <div class="cart-offer">
+                      <div class="cart-offer__top">
+                        <div class="cart-offer__picture">
+                          <img src="images/product/product1.jpg" alt="" class="cart-offer__img">
+                        </div>
+                        <div class="cart-offer__info">
+                          <div class="cart-offer__title">
+                            <a href="#" target="_blank">
+                              Viagra Levitra Welcome Pack
+                            </a>
+                          </div>
+                          <div class="cart-offer__text">
+                            5x 20mg Viagra and 5x20mg&nbsp;Levitra
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cart-offer__bottom">
+                        <svg width="16" height="20" class="c-blue cart-offer__icon">
+                          <use href="images/svg-icons.svg#lock"></use>
+                        </svg>
+                        Add €100 in products to your cart to unlock this option for free.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart__section cart__promo">
+                    <div class="cart-promo">
+                      <input type="text" class="input-style cart-promo__input" placeholder="Promo Code">
+                      <button class="btn cart-promo__btn">
+                        Apply
+                      </button>
+                    </div>
+                  </div>
+                  <div class="cart__section cart__footer">
+                    <div class="cart-total cart__total">
+                      <span class="cart-total__label">
+                        Subtotal
+                      </span>
+                      <span class="cart-total__value">
+                        70 EUR
+                      </span>
+                    </div>
+                    <div class="cart__btns">
+                      <a href="checkout.html" class="btn btn_w_100p cart__checkout js-hide-cart js-disable-empty">
+                        Proceed to Checkout
+                      </a>
+                    </div>
+                    <ul class="cart-payment-list cart__payment">
+                      <li class="cart-payment-list__item">
+                        <img src="images/visa.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/mc.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/visa.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/mc.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/visa.svg" alt="">
+                      </li>
+                      <li class="cart-payment-list__item">
+                        <img src="images/mc.svg" alt="">
+                      </li>
+                    </ul>
+                    <div class="cart__note">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolorelor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__menu header-menu">
+      <div class="container header-menu__container">
+        <div class="header-menu__close js-toggle-menu-btn"></div>
+        <nav class="header-menu__inner">
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Витамины
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Lorem ipsum dolor
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Incididunt ut labore
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Et dolore
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Лекартственные средства
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Бады
+              </a>
+            </div>
+            <!-- <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+
+                </a>
+              </li>
+            </ul> -->
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Косметика
+              </a>
+            </div>
+            <!-- <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+
+                </a>
+              </li>
+            </ul> -->
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Медицинская техника
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Первая помощь
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Оптика
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Гигиена
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header-menu__item js-menu-item">
+            <div class="header-menu__head js-menu-btn">
+              <a href="#" class="header-menu__link">
+                Ухо горло нос
+              </a>
+            </div>
+            <ul class="header-menu__list js-menu-drop">
+              <li>
+                <a href="#">
+                  Sit amet, consectetur
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Adipiscing elit, sed
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Do eiusmod tempor
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <main class="main">
+      <section class="section section_bg_white section_pt_30 section_pb_110 section-product">
+        <div class="container">
+          <div class="section-product__inner">
+            <ul class="breadcrumbs breadcrumbs_mb_30 section-product__breadcrumbs">
+              <li>
+                <a href="#">
+                  main
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Category
+                </a>
+              </li>
+              <li>
+                <span>
+                  Product
+                </span>
+              </li>
+            </ul>
+            <div class="product">
+              <div class="product__left">
+                <div class="gallery product__gallery">
+                  <div class="gallery-top-wrapper">
+                    <div class="swiper gallery-top">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="images/product/product-gallery.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product2.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product3.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product1.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product4.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product5.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product2.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product4.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product1.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery-bottom-wrapper">
+                    <div class="swiper gallery-bottom">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="images/product/product-gallery.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product2.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product3.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product1.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product4.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product5.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product2.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product4.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="images/product/product1.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next swiper-custom-btn swiper-custom-btn_next gallery-bottom-next">
+                      <svg width="16" height="13">
+                        <use href="images/svg-icons.svg#arrow-right2"></use>
+                      </svg>
+                    </div>
+                    <div class="swiper-button-prev swiper-custom-btn swiper-custom-btn_prev gallery-bottom-prev">
+                      <svg width="16" height="13">
+                        <use href="images/svg-icons.svg#arrow-left2"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product__right">
+                <div class="product-info">
+                  <div class="product-info__head">
+                    <div class="rating rating_sm product-info__rating">
+                      <div class="rating__inner" style="width: 80%;"></div>
+                    </div>
+                    <div class="product-info__score">
+                      4.3 / 5.0 based on 700+ review
+                    </div>
+                  </div>
+                  <h1 class="product-info__title">
+                    Product Title
+                  </h1>
+                  <div class="product-info__price-row">
+                    <span class="product-info__price">
+                      70 EUR
+                    </span>
+                    <div class="product-info__price-info">
+                      <span class="product-info__price-qnt">
+                        per pack of 28 tablets
+                      </span>
+                      <span class="product-info__price-one">
+                        (2,5 EUR per Pill)
+                      </span>
+                    </div>
+                  </div>
+                  <div class="product-info__info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolorelor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolorelor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore
+                  </div>
+                  <div class="product-info__dose">
+                    <div class="product-info__label">
+                      Dose selection
+                    </div>
+                    <div class="radio-box-list">
+                      <label class="radio-box">
+                        <input type="radio" class="radio-box__input" name="dose" id="" autocomplete="off">
+                        <span class="radio-box__checkmark">20 mg</span>
+                      </label>
+                      <label class="radio-box">
+                        <input type="radio" class="radio-box__input" name="dose" id="" autocomplete="off" checked>
+                        <span class="radio-box__checkmark">40 mg</span>
+                      </label>
+                      <label class="radio-box">
+                        <input type="radio" class="radio-box__input" name="dose" id="" autocomplete="off">
+                        <span class="radio-box__checkmark">60 mg</span>
+                      </label>
+                      <label class="radio-box">
+                        <input type="radio" class="radio-box__input" name="dose" id="" autocomplete="off">
+                        <span class="radio-box__checkmark">80 mg</span>
+                      </label>
+                      <label class="radio-box">
+                        <input type="radio" class="radio-box__input" name="dose" id="" autocomplete="off">
+                        <span class="radio-box__checkmark">100 mg</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="product-info__pack">
+                    <div class="product-info__label">
+                      Pack selection
+                    </div>
+                    <div class="product-info__pack-select">
+                      <select class="select select_sm" id="select-pack" autocomplete="off">
+                        <option value="1" data-oldPrice="70 EUR" selected>10 Pack - 60 EUR</option>
+                        <option value="2" data-oldPrice="120 EUR">20 Pack - 100 EUR</option>
+                        <option value="3" data-oldPrice="180 EUR">30 Pack - 150 EUR</option>
+                        <option value="4">40 Pack - 200 EUR</option>
+                        <option value="5" data-oldPrice="270 EUR">50 Pack - 250 EUR</option>
+                        <option value="6" data-oldPrice="310 EUR">60 Pack - 300 EUR</option>
+                        <option value="7" data-oldPrice="390 EUR">70 Pack - 350 EUR</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="product-info__btns">
+                    <button class="btn btn_p_32 product-info__btn">
+                      Add to Cart
+                    </button>
+                  </div>
+                  <div class="product-sale product-info__sale">
+                    <div class="marked-text product-sale__title">
+                      Summer Sale:
+                    </div>
+                    <div class="product-sale__text">
+                      Receive temporarily <span class="marked-text">20%</span> off all phone cases with code "<span
+                        class=".marked-text">SUMMER20</span>"
+                    </div>
+                  </div>
+                  <div class="product-info__combine">
+                    <div class="product-combine">
+                      <div class="product-combine__title">
+                        Combine With:
+                      </div>
+                      <div class="combine-item">
+                        <a href="#" target="_blank" class="combine-item__picture">
+                          <img src="images/product/product1.jpg" alt="" class="combine-item__img">
+                        </a>
+                        <div class="combine-item__info">
+                          <div class="combine-item__head">
+                            <a href="#" target="_blank" class="combine-item__title">
+                              Lorem ipsum dolor
+                            </a>
+                          </div>
+                          <div class="combine-item__btns">
+                            <button type="button" class="btn combine-item__btn">
+                              Add to Cart - 70 EUR
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="combine-item">
+                        <a href="#" target="_blank" class="combine-item__picture">
+                          <img src="images/product/product1.jpg" alt="" class="combine-item__img">
+                        </a>
+                        <div class="combine-item__info">
+                          <div class="combine-item__head">
+                            <a href="#" target="_blank" class="combine-item__title">
+                              Lorem ipsum dolor
+                            </a>
+                          </div>
+                          <div class="combine-item__btns">
+                            <button type="button" class="btn combine-item__btn">
+                              Add to Cart - 70 EUR
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="combine-item">
+                        <a href="#" target="_blank" class="combine-item__picture">
+                          <img src="images/product/product1.jpg" alt="" class="combine-item__img">
+                        </a>
+                        <div class="combine-item__info">
+                          <div class="combine-item__head">
+                            <a href="#" target="_blank" class="combine-item__title">
+                              Lorem ipsum dolor
+                            </a>
+                          </div>
+                          <div class="combine-item__btns">
+                            <button type="button" class="btn combine-item__btn">
+                              Add to Cart - 70 EUR
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main-product-info product-info__main-ifo">
+                    <div class="main-product-info__item js-drop-item">
+                      <div class="main-product-info__head js-drop-btn">
+                        Description
+                      </div>
+                      <div class="main-product-info__content js-drop-content">
+                        <div class="product-description">
+                          <div class="product-description__icon">
+                            <img src="images/description-icon.png" alt="">
+                          </div>
+                          <div class="product-description__content">
+                            <div class="product-description__title">
+                              Lorem ipsum dolor
+                            </div>
+                            <div class="product-description__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolorelor sit amet, consectetur adipiscing elit
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-description">
+                          <div class="product-description__icon">
+                            <img src="images/description-icon.png" alt="">
+                          </div>
+                          <div class="product-description__content">
+                            <div class="product-description__title">
+                              Lorem ipsum dolor
+                            </div>
+                            <div class="product-description__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolorelor sit amet, consectetur adipiscing elit
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-description">
+                          <div class="product-description__icon">
+                            <img src="images/description-icon.png" alt="">
+                          </div>
+                          <div class="product-description__content">
+                            <div class="product-description__title">
+                              Lorem ipsum dolor
+                            </div>
+                            <div class="product-description__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolorelor sit amet, consectetur adipiscing elit
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-description">
+                          <div class="product-description__icon">
+                            <img src="images/description-icon.png" alt="">
+                          </div>
+                          <div class="product-description__content">
+                            <div class="product-description__title">
+                              Lorem ipsum dolor
+                            </div>
+                            <div class="product-description__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                              ut labore et dolorelor sit amet, consectetur adipiscing elit
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-product-info__item js-drop-item">
+                      <div class="main-product-info__head js-drop-btn">
+                        Review
+                      </div>
+                      <div class="main-product-info__content js-drop-content">
+                        <div class="slider-reviews-wrapper2">
+                          <div class="swiper slider-reviews2">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="card-review card-review_small">
+                                  <div class="rating card-review__rating">
+                                    <div class="rating__inner" style="width: 50%;"></div>
+                                  </div>
+                                  <div class="card-review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                  </div>
+                                  <div class="card-review__info">
+                                    Ivan, 22.03.2024
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-review card-review_small">
+                                  <div class="rating card-review__rating">
+                                    <div class="rating__inner" style="width: 60%;"></div>
+                                  </div>
+                                  <div class="card-review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                  </div>
+                                  <div class="card-review__info">
+                                    Ivan, 22.03.2024
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-review card-review_small">
+                                  <div class="rating card-review__rating">
+                                    <div class="rating__inner" style="width: 100%;"></div>
+                                  </div>
+                                  <div class="card-review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                  </div>
+                                  <div class="card-review__info">
+                                    Ivan, 22.03.2024
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-review card-review_small">
+                                  <div class="rating card-review__rating">
+                                    <div class="rating__inner" style="width: 50%;"></div>
+                                  </div>
+                                  <div class="card-review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                  </div>
+                                  <div class="card-review__info">
+                                    Ivan, 22.03.2024
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-review card-review_small">
+                                  <div class="rating card-review__rating">
+                                    <div class="rating__inner" style="width: 20%;"></div>
+                                  </div>
+                                  <div class="card-review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                  </div>
+                                  <div class="card-review__info">
+                                    Ivan, 22.03.2024
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-review card-review_small">
+                                  <div class="rating card-review__rating">
+                                    <div class="rating__inner" style="width: 40%;"></div>
+                                  </div>
+                                  <div class="card-review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                  </div>
+                                  <div class="card-review__info">
+                                    Ivan, 22.03.2024
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="card-review card-review_small">
+                                  <div class="rating card-review__rating">
+                                    <div class="rating__inner" style="width: 80%;"></div>
+                                  </div>
+                                  <div class="card-review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore
+                                  </div>
+                                  <div class="card-review__info">
+                                    Ivan, 22.03.2024
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-button-next swiper-custom-btn swiper-custom-btn_next slider-reviews2-next">
+                            <svg width="16" height="13">
+                              <use href="images/svg-icons.svg#arrow-right"></use>
+                            </svg>
+                          </div>
+                          <div class="swiper-button-prev swiper-custom-btn swiper-custom-btn_prev slider-reviews2-prev">
+                            <svg width="16" height="13">
+                              <use href="images/svg-icons.svg#arrow-left"></use>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-product-info__item js-drop-item">
+                      <div class="main-product-info__head js-drop-btn">
+                        Shipping
+                      </div>
+                      <div class="main-product-info__content js-drop-content">
+                        <div class="shipping-row">
+                          <span class="shipping-row__label">
+                            Netherlands:
+                          </span>
+                          <span class="shipping-row__value">
+                            Order by 23:59 = delivered tomorrow with DHL
+                          </span>
+                        </div>
+                        <div class="shipping-row">
+                          <span class="shipping-row__label">
+                            Belgium:
+                          </span>
+                          <span class="shipping-row__value">
+                            Order by 22:00 = delivered tomorrow with Bpost
+                          </span>
+                        </div>
+                        <div class="shipping-row">
+                          <span class="shipping-row__label">
+                            Germany:
+                          </span>
+                          <span class="shipping-row__value">
+                            2-3 business days with GLS
+                          </span>
+                        </div>
+                        <div class="shipping-row">
+                          <span class="shipping-row__label">
+                            Rest&nbsp;of&nbsp;Europe:
+                          </span>
+                          <span class="shipping-row__value">
+                            3-5 business days with DPD and GLS
+                          </span>
+                        </div>
+                        <div class="shipping-row">
+                          <span class="shipping-row__label">
+                            Rest&nbsp;of&nbsp;the&nbsp;world:
+                          </span>
+                          <span class="shipping-row__value">
+                            6-10 business days
+                          </span>
+                        </div>
+                        <div class="shipping-info">
+                          <p>
+                            Free shipping for orders over €100
+                          </p>
+                          <p>
+                            ALCANSIDE express orders are sent out with DHL, GLS, DPD and FedEx. A tracking number is
+                            supplied via email after the order is processed.
+                          </p>
+                          <p>
+                            We offer a 14 day returns or exchange policy if you are not happy with your order for
+                            whatever reason. For more information please see our returns policy <a href="#"
+                              target="_blank">here</a>.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section_bg_white section_pb_140 section-best-sellers">
+        <div class="container">
+          <div class="section-best-sellers__inner">
+            <div class="brand">
+              <div class="brand__item">
+                <img src="images/brand/aquajet.webp" alt="">
+              </div>
+              <div class="brand__item">
+                <img src="images/brand/bebble.webp" alt="">
+              </div>
+              <div class="brand__item">
+                <img src="images/brand/bionorica.webp" alt="">
+              </div>
+              <div class="brand__item">
+                <img src="images/brand/blendamed.webp" alt="">
+              </div>
+              <div class="brand__item">
+                <img src="images/brand/estel.webp" alt="">
+              </div>
+              <div class="brand__item">
+                <img src="images/brand/lacalut.webp" alt="">
+              </div>
+            </div>
+            <h2 class="section__title">
+              Best Sellers
+            </h2>
+            <div class="swiper slider-product">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card-product">
+                    <a href="#" class="card-product__head">
+                      <img src="images/product/product1.jpg" alt="" class="card-product__img">
+                    </a>
+                    <div class="card-product__content">
+                      <a href="#" class="card-product__title">
+                        Lorem ipsum dolor
+                      </a>
+                      <div class="card-product__info">
+                        from 1.2 euro/pills
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card-product">
+                    <a href="#" class="card-product__head">
+                      <img src="images/product/product2.jpg" alt="" class="card-product__img">
+                    </a>
+                    <div class="card-product__content">
+                      <a href="#" class="card-product__title">
+                        Lorem ipsum dolor
+                      </a>
+                      <div class="card-product__info">
+                        from 1.2 euro/pills
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card-product">
+                    <a href="#" class="card-product__head">
+                      <img src="images/product/product3.jpg" alt="" class="card-product__img">
+                    </a>
+                    <div class="card-product__content">
+                      <a href="#" class="card-product__title">
+                        Lorem ipsum dolor
+                      </a>
+                      <div class="card-product__info">
+                        from 1.2 euro/pills
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card-product">
+                    <a href="#" class="card-product__head">
+                      <img src="images/product/product4.jpg" alt="" class="card-product__img">
+                    </a>
+                    <div class="card-product__content">
+                      <a href="#" class="card-product__title">
+                        Lorem ipsum dolor
+                      </a>
+                      <div class="card-product__info">
+                        from 1.2 euro/pills
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card-product">
+                    <a href="#" class="card-product__head">
+                      <img src="images/product/product5.jpg" alt="" class="card-product__img">
+                    </a>
+                    <div class="card-product__content">
+                      <a href="#" class="card-product__title">
+                        Lorem ipsum dolor
+                      </a>
+                      <div class="card-product__info">
+                        from 1.2 euro/pills
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-scrollbar swiper-custom-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__cell">
+          <div class="footer-nav js-drop-item">
+            <div class="footer__title footer-nav__title js-drop-btn">
+              Collection
+            </div>
+            <ul class="footer-nav__list js-drop-content">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsumr sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum do
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__cell">
+          <div class="footer-nav js-drop-item">
+            <div class="footer__title footer-nav__title js-drop-btn">
+              Customer support
+            </div>
+            <ul class="footer-nav__list js-drop-content">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsumr sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum do
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum dolor sit
+                </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">
+                  Lorem ipsum
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__cell">
+          <div class="footer__title">
+            Join the club
+          </div>
+          <div class="footer__info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          </div>
+          <div class="footer__subscribe">
+            <div class="subscribe-input">
+              <input type="email" class="subscribe-input__input" placeholder="Your email">
+              <button type="button" class="subscribe-input__btn">
+                <svg width="21" height="18">
+                  <use href="images/svg-icons.svg#send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer__cell">
+          <div class="footer__logo">
+            <img src="images/logo-light.png" alt="">
+          </div>
+          <ul class="footer__sc">
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="17" height="14">
+                  <use href="images/svg-icons.svg#sc-tg"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="20" height="16">
+                  <use href="images/svg-icons.svg#sc-yt"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="9" height="18">
+                  <use href="images/svg-icons.svg#sc-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="21" height="13">
+                  <use href="images/svg-icons.svg#sc-vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="21" height="17">
+                  <use href="images/svg-icons.svg#sc-tw"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sc-link" target="_blank">
+                <svg width="16" height="16">
+                  <use href="images/svg-icons.svg#sc-ig"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__copy">
+          © 2024 Copyright All rights reserved.
+        </div>
+        <div class="footer__controls">
+          <div class="footer__select">
+            <select class="select-settings" id="select-language" autocomplete="off">
+              <option value="0" selected>Eng</option>
+              <option value="1">Eng1</option>
+              <option value="2">Eng2</option>
+              <option value="3">Eng3</option>
+              <option value="4">Eng4</option>
+            </select>
+          </div>
+          <div class="footer__select">
+            <select class="select-settings" id="select-currency" autocomplete="off">
+              <option value="0" selected>USD ($)</option>
+              <option value="1">USD ($)1</option>
+              <option value="2">USD ($)2</option>
+              <option value="3">USD ($)3</option>
+              <option value="4">USD ($)4</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/tom-select.complete.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
